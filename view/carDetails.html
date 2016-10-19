@@ -1,0 +1,564 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>Modernization of Cars</title>
+	<meta charset="utf-8">
+	
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="./../lib/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="./../src/css/styles.css" rel="stylesheet">
+</head>
+<body>
+	
+	<div>
+		<nav class="navbar navbar-default navbar-fixed-top navc">
+		 <div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-target=".navbar-responsible-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/"> <img src="./../src/images/logo1.jpg" alt="logo" class="logo"></a>
+			</div>
+			<div class="collapse navbar-collapse navbar-responsible-collapse">
+
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="view/carDetails.html">Details</a></li>
+					
+					<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <strong class="caret"></strong></a>
+                           <ul class="dropdown-menu">
+								<li>
+									<a href="#">AUDI cars</a>
+								</li>
+								<li>
+									<a href="#">MERCEDES cars</a>
+								</li>
+								<li>
+									<a href="#">BMW cars</a>
+								</li>
+								<li>
+									<a href="#">TOYOTA cars</a>
+								</li>
+								<li>
+									<a href="#">GENERAL MOTORS cars</a>
+								</li>
+								<li>
+									<a href="#">VOLKSWAGEN cars</a>
+								</li>
+								<li>
+									<a href="#">HYUNDAI cars</a>
+								</li>
+								<li>
+									<a href="#">SUZUKI cars</a>
+								</li>
+								<li class="divider"></li>
+								<li class="dropdown-header">about continue</li>
+								<li>
+									<a href="#">Microcar</a>
+								</li>
+								<li>
+									<a href="#">Lightcar</a>
+								</li>
+								<li>
+									<a href="#">Smallcar</a>
+								</li>
+								<li>
+									<a href="#">Mediumcars</a>
+								</li>
+								<li>
+									<a href="#">LargeCar</a>
+								</li>
+								<li>
+									<a href="#">SUVCar</a>
+								</li>	
+                           </ul>
+					</li>
+					<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contacts <strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="https://mail.google.com/">Email</a>
+								</li>
+								<li>
+									<a href="https://https://www.facebook.com/">Facebook</a>
+								</li>
+								<li>
+									<a href="##">TWITTER</a>
+								</li>
+								<li>
+									<a href="##">PHONE</a>
+								</li>
+							</ul>  <!--end nav-->
+					</li>
+                </ul>
+                  <!-- navbar-right -->
+                <ul class="nav navbar-nav navbar-right">
+                   <li>
+					    <form class="navbar-form">
+							<input type="text" class="form-control" placeholder=" search this site.." id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form> <!--end navbar-form-->
+					</li>    
+                    <li class="dropdown">
+
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account<strong class="caret"></strong></a>
+
+							<ul class="dropdown-menu">
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Home</a>
+									</li>
+                                    <li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Profile</a>
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Setting</a>
+									</li>
+									<li class="divider"></li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Signout</a>
+									</li>
+                            </ul>
+					</li> 
+				</ul> <!-- navbar-right -->
+
+			</div>
+		  </div>
+		</nav>
+	</div>
+     
+		<div class="carousel slide" data-ride="carousel" id="myCarousel">
+			
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+					<li data-slide-to="3" data-target="#myCarousel"></li>
+					<li data-slide-to="4" data-target="#myCarousel"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Vintage Car </h4>
+							<p>These cars were used in early 1970's and 1980's</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Modern Cars</h4>
+							<p>These cars were highly modernised from the previous used cars.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Advanced Cars</h4>
+							<p>These are the cars which are highly in demand nowadays, having advanced engine and performance.</p>
+						</div><!-- end carousel-caption-->
+                    </div><!-- end item -->
+					<div class="item" id="slide4">
+						<div class="carousel-caption">
+							<h4>Sports Cars</h4>
+							<p>These cars were highly modernised from the previous used cars.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					<div class="item" id="slide5">
+						<div class="carousel-caption">
+							<h4>Sports Racing Cars</h4>
+							<p>These cars were highly modernised from the previous used cars.</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+
+					<!-- Controls -->
+					<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+					<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+				</div><!-- carousel-inner -->			
+			</div><!-- end myCarousel -->
+        
+		<div class="container">	
+
+			<div class="row" id="bigCallout">
+				<div class="col-12">
+					
+					<div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+						
+						<h4>Success!</h4>
+						<p>You just made this element display by using jQuery. Click the "x" in the top right corner to close this.</p>
+					</div><!-- end alert -->
+					
+					<!-- Visible only on small devices -->
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+					</div><!-- end well-small -->
+					
+					<div class="well">
+						<div class="page-header">
+							<h2>MODERNATION OF CARS <small>Know about how modernization happens.</small></h2>
+						</div><!-- end page-header -->
+						
+						<p class="lead">A car is a wheeled, self-powered motor vehicle used for transportation and a product of the ... The year 1886 is regarded as the birth year of the modern car. ... was the 1908 Model T, an American car manufactured by the Ford Motor Company.</p>
+						
+						<a href="" class="btn btn-medium btn-primary" id="alertMe">Click a nice big button</a>
+						<a href="" class="btn btn-large btn-link">or a secondary link</a>
+						<br>
+						<a href="" class="btn btn-medium btn-primary" id="alertMe">Click a nice big button</a>
+						<a href="" class="btn btn-large btn-link">or a secondary link</a>
+					</div><!-- end well -->
+					
+				</div><!-- end col-12 -->
+			</div><!-- end bigCallout -->
+
+			<div class="row panels" id="featuresHeading">
+			<div class ="col-12">
+				<h2> Some Most Popular Cars Company</h2>
+				<p class="lead">The various companies have evolved with time, but some best company with selling hike and popularity
+				</p>
+			</div> <!-- end col-12 -->
+		</div><!--end featuresHeading-->
+
+		<div class="row panels" id="features">
+			<div class="col-sm-4 feature">
+				<div class="panel panelcars">
+					<div class="panel heading">
+						<h3 class="panel-title">BMW CARS </h3>
+					</div><!-- end panel heading -->
+					<img src="./../src/images/bmwcar1.png" alt="BMW cars" class="BMW cars">
+					<p>Bayerische Motoren Werke AG (German pronunciation), usually known under its abbreviation BMW (German pronunciation, is a German luxury vehicles, motorcycle, and engine manufacturing company founded in 1916. Headquartered in Munich, Bavaria, Germany. BMW owns Mini cars and is the parent company of Rolls-Royce.</p>
+					<br>
+					<a href="https://en.wikipedia.org/wiki/BMW" target="_blank" class="btn btn-warning btn-block">Know More About BMW Cars</a>
+				</div><!-- end panel -->
+			</div><!-- col-sm-4 end feature -->
+
+			<div class="col-sm-4 feature">
+				<div class="panel panelcars">
+					<div class="panel heading">
+						<h3 class="panel-title">MERCEDES CARS</h3>
+					</div><!-- end panel heading -->
+					<img src="./../src/images/mercedescar1.jpg" alt="MERCEDES cars" class="MERCEDES cars">
+					<p>Mercedes-Benz is a global automobile manufacturer and a division of the German company Daimler AG. The brand is known for luxury vehicles, buses, coaches, and trucks. The headquarters of Mercedes-Benz is in Stuttgart, Baden-Württemberg, Germany.The name first appeared in 1926 under Daimler-Benz. 
+					</p>
+					<br>
+					<a href="https://en.wikipedia.org/wiki/Mercedes-Benz" target="_blank" class="btn btn-warning btn-block">Know More About MERCEDES Cars</a>
+				</div><!-- end panel -->
+			</div><!-- col-sm-4 end feature -->
+
+			<div class="col-sm-4 feature">
+				<div class="panel panelcars">
+					<div class="panel heading">
+						<h3 class="panel-title">AUDI CARS</h3>
+					</div><!-- end panel heading -->
+					<img src="./../src/images/audicar1.jpg" alt="AUDI cars" class="AUDI cars">
+					<p>Audi is an automobile manufacturer from Germany. The company is known for producing and marketing, stylishly designed, superior engineered cars.
+					Audi’s history dates back to the turn of the 20th century. August Horch, a German engineer and his team of 15 workers started the company in the name of A. HORCH and Cie in 1899. </p>
+					<br>
+					<a href="https://successstory.com/companies/audi" target="_blank" class="btn btn-warning btn-block">Know More About AUDI Cars</a>
+				</div><!-- end panel -->
+			</div><!-- col-sm-4 end feature -->
+		</div><!--end features-->
+            
+            <div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h3>More Info About Top Cars Company</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+							<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+							<li><a href="#tab3" data-toggle="tab">Section 3</a></li>
+							<li><a href="#tab4" data-toggle="tab">Section 4</a></li>
+						</ul><!-- end nav-tabs -->
+
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class=glyphicon glyphicon-map-marker"></span>Our Showroom Location <small>Our Delhi NCR Showroom location</small></h4>
+
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.3861184082243!2d77.07706605046147!3d28.49802859682091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3d5baff52201%3A0xafd7c22e6c63d794!2sAudi+Service+Gurgaon!5e0!3m2!1sen!2sin!4v1476424791385" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+								<p>This map helps You to get to the delhi ncr showroom, we also have our showroom acroos India various region.Your need to enter your location to know nearby showroom.</p>
+							</div> <!-- end tab-pane -->
+
+							<div class="tab-pane" id="tab2">
+								<h4>A Left Footed Picture <small>Using Placehold.it</small></h4>
+								<img src="http://placehold.it/140" class="thumbnail pull-left img-responsive">
+
+								<p>The car industry is always one of the first industries to embrace emerging technologies. Technology affects the way cars are built, operate, are maintained and repaired. Each year new methods are used to make cars safer, easier to fix and make them more efficient. These are some of the most important technologies that have changed the modern car industry.</p>
+
+								<p>The car industry is always one of the first industries to embrace emerging technologies. Technology affects the way cars are built, operate, are maintained and repaired. Each year new methods are used to make cars safer, easier to fix and make them more efficient. These are some of the most important technologies that have changed the modern car industry.</p>
+
+								<hr>
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class=glyphicon glyphicon-hand-up"></span> Click For A Modal Window!</a>
+
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title"> A Modal Window</h4>
+											</div> <!-- end modal-header -->
+
+											<div class="modal-body">
+												<h4>Text in a Modal</h4>
+
+												<p>The car industry is always one of the first industries to embrace emerging technologies. Technology affects the way cars are built, operate, are maintained and repaired. Each year new methods are used to make cars safer, easier to fix and make them more efficient. These are some of the most important technologies that have changed the modern car industry.</p>
+
+												<h4>Popovers in a Modal</h4>
+
+												<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it" data-content="I know you would.">Don't click this button</a>
+												<h4>Tooltips in a modal</h4>
+												<a href="" data-original-title="Tooltip" rel="tooltip">This link</a> should have a tooltip,and so should <a href=""data-original-title="tooltip showing" rel="tooltip">this one</a>
+
+												<hr>
+												<p><small class="text-muted" Demo Form, Doesn't take the data </small></p>
+
+												<form class="form-horizontal">
+													<div class="form-group">
+
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+
+													</div>
+
+													<div class="form-group">
+
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+
+
+													</div>
+
+													<div class="form-group">
+
+														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+
+														<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+
+															<button class="btn btn-success pull-right" type="submit">Send! </button>
+														</div>
+
+													</div>
+
+												</form>
+											</div><!-- end modal-body -->
+
+											<!-- <div class="modal-footer">
+												<button class=" btn btn-default" data-dismiss="modal" type="button">Close</button>
+												<button class="btn btn-primary" type="button">Save Changes</button>
+											</div><!-- end modal footer --> -->
+
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+
+				<div class="col-sm-6">
+					<h3> Some More Text Info</h3>
+
+					<p>The car industry is always one of the first industries to embrace emerging technologies. Technology affects the way cars are built, operate, are maintained and repaired. Each year new methods are used to make cars safer, easier to fix and make them more efficient. These are some of the most important technologies that have changed the modern car industry.
+						
+					</p>
+					<h4> A List Group<h4>
+						<div class="list-group">
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Sports Cars1</h4>
+								<p class="list-group-item-text"> Nowadys, the demands is highly increasing for the luxury with the sports car features.</p>
+							</a>
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Sports Cars2</h4>
+								<p class="list-group-item-text"> Nowadys, the demands is highly increasing for the luxury with the sports car features.</p>
+							</a>
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Sports Cars3</h4>
+								<p class="list-group-item-text"> Nowadys, the demands is highly increasing for the luxury with the sports car features.</p>
+							</a>
+						</div><!-- end list-group -->
+						<h5> A Some heading</h5>
+						<p>The car industry is always one of the first industries to embrace emerging technologies. Technology affects the way cars are built, operate, are maintained and repaired. Each year new methods are used to make cars safer, easier to fix and make them more efficient. These are some of the most important technologies that have changed the modern car industry.
+						</p>
+					</div><!-- end col-sm-6 -->
+
+				</div><!--end moreInfo--> 
+
+				<hr>
+				<div class="row" id="moreCourses">
+					<div class="col-12">
+						<h3>Know About More On Cars</h3>
+						<div class="thumbnails row">
+							<div class="col-sm-6">
+								<div class="thumbnail">
+									<img src="./../src/images/item_car1.jpg" alt="car1" class="img-responsive">
+
+									<div class="label label-success price">
+										<span class="glyphicon glyphicon-tag"></span>
+										<sup>$</sup>340000
+									</div>
+
+
+									<div class="caption">
+										<h3>Car new Models 101</h3>
+										<p>The car industry is always one of the first industries to embrace emerging technologies. Technology affects the way cars are built, operate, are maintained and repaired. Each year new methods are used to make cars safer, easier to fix and make them more efficient. These are some of the most important technologies that have changed the modern car industry.
+										</p>
+										<p><a href="####" class="btn btn-primary btn-small" target="_blank">View more</a>
+											<a href="####" target="_blank" class="btn btn-small btn-link"> Learn More</a>
+										</p>
+
+
+									</div><!-- end caption -->
+
+								</div><!-- end thumbnail -->
+							</div><!-- end col-6 -->
+
+							<div class="col-sm-6">
+								<div class="thumbnail">
+									<img src="./../src/images/item_car2.jpg" alt="car2" class="img-responsive">
+
+									<div class="label label-info price">
+										<span class="glyphicon glyphicon-tag"></span>
+										<sup>$</sup>440000
+									</div>
+
+
+									<div class="caption">
+										<h3>Car new Models 101</h3>
+										<p>The car industry is always one of the first industries to embrace emerging technologies. Technology affects the way cars are built, operate, are maintained and repaired. Each year new methods are used to make cars safer, easier to fix and make them more efficient. These are some of the most important technologies that have changed the modern car industry.
+										</p>
+										<p><a href="####" class="btn btn-primary btn-small" target="_blank">View more</a>
+											<a href="####" target="_blank" class="btn btn-small btn-link"> Learn More</a>
+										</p>
+
+									</div><!-- end caption -->
+
+								</div><!-- end thumbnail -->
+							</div><!-- end col-6 -->
+						</div> <!-- end thumbnails-row -->
+
+						<div class="thumbnails row">
+							<div class="col-sm-6">
+								<div class="thumbnail">
+									<img src="./../src/images/item_car3.jpg" alt="car3" class="img-responsive">
+
+									<div class="label label-success price">
+										<span class="glyphicon glyphicon-tag"></span>
+										<sup>$</sup>620000
+									</div>
+
+
+									<div class="caption">
+										<h3>Car new Models 101</h3>
+										<p>The car industry is always one of the first industries to embrace emerging technologies. Technology affects the way cars are built, operate, are maintained and repaired. Each year new methods are used to make cars safer, easier to fix and make them more efficient. These are some of the most important technologies that have changed the modern car industry.
+										</p>
+										<p><a href="####" class="btn btn-primary btn-small" target="_blank">View more</a>
+											<a href="####" target="_blank" class="btn btn-small btn-link"> Learn More</a>
+										</p>
+                                    </div><!-- end caption -->
+
+								</div><!-- end thumbnail -->
+							</div><!-- end col-6 -->
+
+							<div class="col-sm-6">
+								<div class="thumbnail">
+									<img src="./../src/images/item_car4.jpg" alt="car4" class="img-responsive">
+
+									<div class="label label-info price">
+										<span class="glyphicon glyphicon-tag"></span>
+										<sup>$</sup>740000
+									</div>
+
+
+									<div class="caption">
+										<h3>Car new Models 101</h3>
+										<p>The car industry is always one of the first industries to embrace emerging technologies. Technology affects the way cars are built, operate, are maintained and repaired. Each year new methods are used to make cars safer, easier to fix and make them more efficient. These are some of the most important technologies that have changed the modern car industry.
+										</p>
+										<p><a href="####" class="btn btn-primary btn-small" target="_blankimimgView more</a>
+											<a href="####" target="_blank" class="btn btn-small btn-link"> Learn More</a>
+										</p>
+
+									</div><!-- end caption -->
+
+								</div><!-- end thumbnail -->
+							</div><!-- end col-6 -->
+						</div> <!-- end thumbnails-row -->
+
+
+					</div><!-- end col-12 -->
+				</div><!-- end moreCourses -->
+
+			</div><!--end container-->
+
+		</div> <!-- end container -->
+
+		<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-2">
+							<h6>Copyright &copy; 2016 Ankit Vashist</h6>
+						</div><!-- end col-sm-2 -->
+						<div class="col-sm-4">
+							<h6>About Us</h6>
+							<p>We Provide knowledge About The Cars.</p>
+						</div> <!-- end col-sm-4 -->
+						<div class="col-sm-2">
+							<h6>Navigation</h6>
+							<ul class="unstyled">
+								<li><a href="">Home </a></li>
+								<li><a href="">Services</a></li>
+								<li><a href="">Links</a></li>
+								<li><a href="">Contacts</a></li>
+							</ul>
+						</div><!-- end col-sm-2 -->
+						<div class="col-sm-2">
+							<h6>Follow Us</h6>
+							<ul class="unstyled">
+								<li><a href="">Twitter </a></li>
+								<li><a href="">Facebook</a></li>
+								<li><a href="">Google plus</a></li>
+								<li><a href="">Youtube</a></li>
+							</ul>
+						</div><!-- end col-sm-2 -->
+						<div class="col-sm-2">
+							<h6>Coded with <span class="glyphicon glyphicon-heart"></span>By Ankit Vashist</h6>
+						</div> <!-- end col-sm-2 -->
+					</div><!-- end row -->
+				</div><!-- end container -->
+
+			</footer>
+
+			<!-- First try for the online version of jQuery-->
+			<script src="http://code.jquery.com/jquery.js"></script>
+
+			<!-- If no online access, fallback to our hardcoded version of jQuery -->
+			<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+			<!-- Custom JS -->
+			<script type="text/javascript" src="../lib/js/bootstrap.min.js"></script>
+
+		</body>
+		</html>
+
