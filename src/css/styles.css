@@ -2,13 +2,22 @@
 
 
    /*Layout*/
+   .classButton{
+    margin-bottom:6px;
+   }
 
     #features p{
       text-align:justify;
+      margin-top: 6px;
 
     }
     #features img{
-      margin: 0 0 20px;
+      display: block;
+      margin:auto;
+    }
+    #features{
+      
+      text-align:center;
     }
     #inputMessage{
       margin-bottom: 15px;
@@ -16,7 +25,7 @@
     footer{
       background:#333;
       color:#eee;
-      font-size: 11px;
+      font-size: 12px;
       padding:20px;
     }
 
@@ -195,6 +204,14 @@
     .panelcars p
     {
       height: 140px;
+    }
+
+    .foot h6{
+      font-size: 15px;
+      
+    }
+    .foot p ,a{
+      font-size: 12px;
     }
 }
 
